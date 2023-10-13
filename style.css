@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+
+table{
+    border-collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: gold;
+}
+
+tr:hover {
+    background-color: green;
+}
+
+.h3{
+background-color: blueviolet;
+}
