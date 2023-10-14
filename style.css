@@ -1,11 +1,12 @@
 body {
     background-color: aqua;
 }
-
+/* Imade the background color for my entire project a beachy aqua blue. */
 table{
     border-collapse;
     width: 100%;
 }
+
 th, td {
     padding: 8px;
     text-align: left;
@@ -19,7 +20,40 @@ tr:nth-child(even) {
 tr:hover {
     background-color: green;
 }
+/* I gave my table a border, put some padding around it, made it the width of the page, made the even lines gold, and added a green hover to the rows. */
 
-.h3{
+h1{
+    background-color: chartreuse;
+}
+/* I made the h1 background chartreuse. */
+
+h3{
 background-color: blueviolet;
 }
+/* I made the h3 background blue violet.*/
+
+<p> {
+    width: 75%;
+}
+/* The paragraph width is 75% of the page.*/
+
+ul{
+    border-bottom: 1px solid black;
+}
+/* I made a border on the bottom of my list.*/
+
+img{
+    border-radius: 5px;
+}
+/* I rounded the corners of the images.*/
+
+form{
+    padding: 50px;
+    margin: 10px;
+}
+/* I made the form slightly bigger, and moved it over away from the edge of the page.*/
+
+button{
+    color: chocolate;
+}
+/* I made the text on the button a chocolate color.*/
